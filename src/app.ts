@@ -28,3 +28,15 @@ if (button) {
 }
 
 printOutput(add(5));
+
+const hobbies = ["Coding", "Gym"];
+const activeHobbies = ["Hiking"];
+
+activeHobbies.push(...hobbies);
+
+const person = {
+  name: "Aman",
+  age: 22,
+};
+
+const copiedPerson = { ...person };
