@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "lite-server",
-    "tsc": "tsc app.ts",
-    "watch": "tsc app.ts -w"
+    "start": "lite-server"
   },
   "author": "",
   "license": "ISC",
