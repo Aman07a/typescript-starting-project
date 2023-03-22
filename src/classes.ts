@@ -1,7 +1,7 @@
 abstract class Department {
   static fiscalYear = 2020;
-//   private readonly id: string;
-//   private name: string;
+  // private readonly id: string;
+  // private name: string;
   protected employees: string[] = [];
 
   constructor(protected readonly id: string, public name: string) {
