@@ -4,13 +4,14 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack",
+    "build": "webpack --config webpack.config.prod.js",
     "watch": "tsc -w",
     "server": "lite-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "lite-server": "^2.6.1",
     "ts-loader": "^9.4.2",
     "typescript": "^5.0.2",
