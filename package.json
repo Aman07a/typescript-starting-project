@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "lite-server",
+    "start": "webpack-dev-server",
+    "build": "webpack",
     "watch": "tsc -w",
-    "build": "webpack"
+    "server": "lite-server"
   },
   "author": "",
   "license": "ISC",
